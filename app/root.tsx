@@ -15,7 +15,7 @@ import { useEffect } from "react";
 
 import { redirect } from "@remix-run/node";
 
-import { getContacts, createEmptyContact } from "./data";
+import { createEmptyContact, getContacts } from "./data";
 
 import appStylesHref from "./app.css?url";
 
